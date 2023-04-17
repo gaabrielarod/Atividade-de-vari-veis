@@ -24,7 +24,7 @@ public class exer_dowhile5 {
 		} while (numero != 0);
 		
 		System.out.println("A soma dos números positivos é: "+somapos);
-		}
+	}
 	}
 
 
