@@ -21,7 +21,7 @@ public class vetor2 {
 		System.out.println("\nOs elementos nos índices impares são: ");
 		
 		for (x = 0; x < vetor.length; x++) {
-			if (x % 2 == 0) {
+			if (x % 2 == 1) {
 				impar = vetor[x];
 				System.out.println(impar + " ");
 			}
@@ -30,7 +30,7 @@ public class vetor2 {
 		System.out.println("\nOs elementos nos índices pares são: ");
 		
 		for (x = 0; x < vetor.length; x++) {
-			if (vetor[x] % 2 == 0) {
+			if (vetor[x] % 2 == 1) {
 				par = vetor[x];
 				System.out.println(par + " ");
 			}
@@ -41,6 +41,5 @@ public class vetor2 {
 		media = soma / vetor.length;
 		
 		System.out.printf("A média dos elementos é de: %.2f" ,media);
-	}
-
+	} 
 }

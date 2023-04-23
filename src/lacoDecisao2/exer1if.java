@@ -24,7 +24,7 @@ public class exer1if {
 		} else if (soma < valor3) {
 			System.out.println("A soma de A + B é menor que C");
 		} else if (soma == valor3) {
-			System.out.println("A soma de A + B igual a C");
+			System.out.println("A soma de A + B é igual a C");
 		}
 
 	}

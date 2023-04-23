@@ -28,7 +28,7 @@ public class matriz4 {
 			
 		}
 		 for (int i = 0; i < mediaAluno.length; i++) {
-			 System.out.printf("Vetor: %.1f", mediaAluno[1]);
+			 System.out.printf("\nVetor: %.1f", mediaAluno[1]);
 		 }
 	}
 
